@@ -41,7 +41,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <ul className="flex flex-col gap-10 p-4 md:p-0  ml-7  font-medium bg-transparent  md:hidden ">
+          <ul className="flex flex-col gap-10 p-4 md:p-0  ml-7  font-medium bg-transparent  md:hidden  w-full">
             <li className=" relative">
               <Dropdown title="Janrlar" isOpen={isOpen} setIsOpen={setIsOpen} items={janr} />
             </li>
