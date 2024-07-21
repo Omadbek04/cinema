@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import heroBg from "../assets/hero.jpg";
+import heroBg from "../assets/hero-min.jpg";
 import Logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 import Dropdown from "./Dropdown";
