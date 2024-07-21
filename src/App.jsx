@@ -1,15 +1,19 @@
-
-
+import { createHashRouter, RouterProvider } from "react-router-dom";
+import Root from "./layout/Root";
 
 function App() {
-
+  const routes = createHashRouter([
+    {
+      path: "/",
+      element: <Root />,
+      children: [],
+    },
+  ]);
   return (
     <>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <RouterProvider router={routes} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
