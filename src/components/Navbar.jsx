@@ -37,7 +37,7 @@ const Navbar = () => {
                   </svg>
                   <span className="sr-only">Search icon</span>
                 </div>
-                <input type="text" id="search-navbar" className="block w-full p-2 ps-10 text-sm bg-transparent focus:outline-none outline-none text-white border border-white rounded-lg bg-white" placeholder="Search..." />
+                <input type="text" id="search-navbar" className="block w-full p-2 ps-10 text-sm bg-transparent focus:outline-none outline-none text-white border border-white rounded-lg bg-transparent" placeholder="Search..." />
               </div>
             </div>
           </div>
